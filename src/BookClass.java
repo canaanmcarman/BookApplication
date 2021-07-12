@@ -10,14 +10,18 @@ public class BookClass {
     }
 
     public BookClass(String bookTitle, String bookAuthor, String bookDescription, int bookPrice, boolean isInStock) {
-    }
-
-    public void getDisplayText() {
         this.bookTitle = bookTitle;
         this.bookAuthor = bookAuthor;
         this.bookDescription = bookDescription;
         this.bookPrice = bookPrice;
         this.isInStock = isInStock;
+
+    }
+
+    public void getDisplayText() {
+        System.out.println(this.bookAuthor);
+        System.out.println(this.bookTitle);
+        System.out.println(this.bookDescription);
 
     }
 
